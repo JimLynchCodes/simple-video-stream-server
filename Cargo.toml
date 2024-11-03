@@ -1,0 +1,12 @@
+[package]
+name = "simple-video-stream-server"
+authors = ["JimLynchCodes <jimlynchcodes@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"
+tokio = { version = "1", features = ["full"] }
+bytes = "1.1"
+async-stream = "0.3"
+hyper = "1.5.0"
